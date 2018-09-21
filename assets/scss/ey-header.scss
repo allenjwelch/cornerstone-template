@@ -2,15 +2,26 @@
 
 }
 
+.body {
+
+}
+
 .custom-header {
 
     .header {
 
-
+        //! Mobile Menu Icon --------------------------------------------------
         .mobileMenu-toggle {
 
+            .mobileMenu-toggleIcon {
+
+                &:before, &:after {
+
+                }
+            }
         }
 
+        //! Top Links -------------------------------------------------------
         .navUser {
 
             .navUser-section {
@@ -18,18 +29,6 @@
                 .navUser-item {
 
                     .navUser-action {
-
-
-                    }
-
-                }
-
-                .navUser-item--cart {
-
-                    .navUser-item-cartLabel {
-                    }
-
-                    .countPill  {
 
                     }
                 }
@@ -40,10 +39,18 @@
             }
         }
 
+        //! Logo -------------------------------------------------------
         .header-logo {
 
+            .header-logo-image-container {
+
+                .header-logo-image {
+
+                }
+            }
         }
 
+        //! TLCs -------------------------------------------------------
         .navPages-container {
 
             .navPages {
@@ -77,6 +84,35 @@
 
             }
 
+        }
+
+        //! Dropdown Categories -----------------------------------------
+        .navPages-container.is-open {
+
+            .navPages {
+
+                .navPages-list {
+
+                    .navPages-item {
+
+                        .navPages-action {
+
+                        }
+                    }
+                }
+            }
+        }
+
+        //! Cart -------------------------------------------------------
+        .navUser-item--cart {
+
+            .navUser-item-cartLabel {
+
+            }
+
+            .countPill  {
+
+            }
         }
     }
 

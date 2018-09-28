@@ -1,0 +1,120 @@
+.custom-body-co {
+
+    .container {
+
+        .ng-checkout-container {
+
+            .ng-checkout-view {
+
+                .layout.optimizedCheckout-contentPrimary {
+
+                    //! Main Div -Left ------------------------
+                    .layout-main {
+                        .checkout-steps {
+
+                            .checkout-view-header {
+
+                            }
+
+                            .checkout-view-content {
+
+                            }
+
+                            // Unique section classes
+                            .checkout-step--customer {
+
+                            }
+                            .checkout-step--shipping {
+
+                            }
+                            .checkout-step--billing {
+
+                            }
+                            .checkout-step--payment {
+
+                            }
+
+                        }
+                    }
+
+                    //! Main Div -Left ------------------------
+                    .layout-cart {
+
+                        // cart
+                        .cart {
+
+                            //header
+                            .cart-header {
+
+                            }
+
+                            //cart-items & cart-prices
+                            .cart-section {
+
+                                .cart-section-heading {
+
+                                }
+
+                                ul.productList {
+
+                                    li.productList-item {
+
+                                        .product {
+
+                                            .product-figure {
+                                                img {}
+                                            }
+
+                                            .product-body {
+                                                .product-title {
+
+                                                }
+                                                .product-options {
+
+                                                }
+
+                                            }
+
+                                            .product-actions {
+                                                .product-price {
+
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+
+                                .loadingOverlay-container {
+
+                                    .cart-priceItem { // Subtotal, Shipping, Tax
+                                        .cart-priceItem-label {
+
+                                        }
+                                        .cart-priceItem-value {
+
+                                        }
+                                    }
+                                }
+
+                                .redeemable-label {
+
+                                }
+
+                                .cart-priceItem--total {
+                                    .cart-priceItem-label {
+
+                                    }
+                                    .cart-priceItem-value {
+
+                                    }
+                                }
+
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+}

@@ -37,7 +37,7 @@
                         }
                     }
 
-                    //! Main Div -Left ------------------------
+                    //! Main Div - Right ------------------------
                     .layout-cart {
 
                         // cart
@@ -111,6 +111,11 @@
 
                             }
                         }
+                    }
+
+                    //! Cartdrawer ------------------------
+                    .cartDrawer {
+                        position: static;
                     }
                 }
             }

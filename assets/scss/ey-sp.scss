@@ -11,6 +11,10 @@
             .breadcrumb {
                 font: 400 15px $primaryFont;
                 color: $primaryColor;
+                &.is-active {
+                    font: 400 15px $primaryFont;
+                    color: $primaryColor;
+                }
             }
         }
 
@@ -18,263 +22,272 @@
             font: 400 15px $primaryFont;
             color: $primaryColor;
         }
-        .page {
 
-
+        p {
+            font: 400 15px $primaryFont;
+            color: $primaryColor;
         }
 
-        .page-sidebar {
+        img {
 
-            .facetedSearch {
+        }
+        .page {
 
-                .facetedSearch-refineFilters {
-                    font: 400 15px $primaryFont;
-                    color: $primaryColor;
+            .page-sidebar {
 
-                    .sidebarBlock-heading {
+                .facetedSearch {
+
+                    .facetedSearch-refineFilters {
                         font: 400 15px $primaryFont;
                         color: $primaryColor;
-                    }
-                }
 
-                .facetedSearch-toggle { //? May not need, may only use with is-open
-
-                }
-
-                .facetedSearch-toggle.is-open {
-
-                    .facetedSearch-toggle-text {
-                        font: 400 15px $primaryFont;
-                        color: $primaryColor;
+                        .sidebarBlock-heading {
+                            font: 400 15px $primaryFont;
+                            color: $primaryColor;
+                        }
                     }
 
-                    .facetedSearch-toggle-indicator {
+                    .facetedSearch-toggle { //? May not need, may only use with is-open
 
-                        .toggleLink-text {
+                    }
+
+                    .facetedSearch-toggle.is-open {
+
+                        .facetedSearch-toggle-text {
                             font: 400 15px $primaryFont;
                             color: $primaryColor;
                         }
 
-                        .toggleLink-text--on {
+                        .facetedSearch-toggle-indicator {
 
-                        }
-
-                        .toggleLink-text--off {
-
-                        }
-                    }
-                }
-
-                .facetedSearch-navList { //.is-open
-
-
-                }
-
-                .facetedSearch-navList {
-
-                    .accordion--navList {
-
-
-                        .accordion-block {
-
-                            .accordion-navigation {
-
-                                .accordion-title {
-                                    font: 400 15px $primaryFont;
-                                    color: $primaryColor;
-                                }
-
-                                .accordion-navigation-actions {
-
-
-                                    .accordion-indicator {
-                                        fill: $primaryColor;
-
-                                        .toggleLink-text--on {
-
-                                        }
-
-                                        .toggleLink-text--off {
-
-                                        }
-
-
-                                    }
-                                }
-                            }
-
-                            .accordion-content {
-
-                                .navList {
-
-                                    .navList-item {
-                                        font: 400 15px $primaryFont;
-                                        color: $primaryColor;
-
-                                        .navList-action--checkbox {
-                                            font: 400 15px $primaryFont;
-                                            color: $primaryColor;
-
-                                            &::before {
-
-                                            }
-                                        }
-
-
-                                    }
-
-
-                                }
-
-                            }
-
-                        } // End accordian-block
-                    }
-                }
-
-
-            }
-        }
-
-        .page-content {
-
-            .actionBar {
-
-                .form-field {
-
-
-                    .form-label {
-
-                    }
-
-                    .form-select {
-
-                    }
-                }
-            }
-
-            .productGrid {
-
-                .product {
-
-                    .card {
-
-                        .card-figure {
-
-                            .card-img-container {
-
-                                .card-image {
-
-                                }
-                            }
-
-                            .card-figcaption {
-
-                                .card-figcaption-body {
-
-                                    .card-figcaption-button{
-
-                                    }
-                                }
-                            }
-                        }
-
-                        .card-body {
-
-                            .card-title a {
+                            .toggleLink-text {
                                 font: 400 15px $primaryFont;
                                 color: $primaryColor;
                             }
 
-                            .card-text {
+                            .toggleLink-text--on {
 
-                                svg {
+                            }
+
+                            .toggleLink-text--off {
+
+                            }
+                        }
+                    }
+
+                    .facetedSearch-navList { //.is-open
+
+
+                    }
+
+                    .facetedSearch-navList {
+
+                        .accordion--navList {
+
+
+                            .accordion-block {
+
+                                .accordion-navigation {
+
+                                    .accordion-title {
+                                        font: 400 15px $primaryFont;
+                                        color: $primaryColor;
+                                    }
+
+                                    .accordion-navigation-actions {
+
+
+                                        .accordion-indicator {
+                                            fill: $primaryColor;
+
+                                            .toggleLink-text--on {
+
+                                            }
+
+                                            .toggleLink-text--off {
+
+                                            }
+
+
+                                        }
+                                    }
+                                }
+
+                                .accordion-content {
+
+                                    .navList {
+
+                                        .navList-item {
+                                            font: 400 15px $primaryFont;
+                                            color: $primaryColor;
+
+                                            .navList-action--checkbox {
+                                                font: 400 15px $primaryFont;
+                                                color: $primaryColor;
+
+                                                &::before {
+
+                                                }
+                                            }
+
+
+                                        }
+
+
+                                    }
 
                                 }
 
-                                &[data-test-info-type="brandName"] {
-                                    font: 400 15px $primaryFont;
-                                    color: $primaryColor;
+                            } // End accordian-block
+                        }
+                    }
+
+
+                }
+            }
+
+            .page-content {
+
+                .actionBar {
+
+                    .form-field {
+
+
+                        .form-label {
+
+                        }
+
+                        .form-select {
+
+                        }
+                    }
+                }
+
+                .productGrid {
+
+                    .product {
+
+                        .card {
+
+                            .card-figure {
+
+                                .card-img-container {
+
+                                    .card-image {
+
+                                    }
                                 }
 
-                                &[data-test-info-type="price"] {
+                                .card-figcaption {
 
-                                    .rrp-price--withoutTax { // "MSRP"
-                                        font: 400 15px $primaryFont;
-                                        color: $primaryColor;
+                                    .card-figcaption-body {
 
-                                        span.price--rrp {
-                                            font: 400 15px $primaryFont;
-                                            color: $primaryColor;
+                                        .card-figcaption-button{
+
                                         }
-                                    }
-
-                                    .non-sale-price--withoutTax { // "Was"
-                                        font: 400 15px $primaryFont;
-                                        color: $primaryColor;
-
-                                        span.price--non-sale {
-                                            font: 400 15px $primaryFont;
-                                            color: $primaryColor;
-                                        }
-                                    }
-
-                                    .price-section--withoutTax {
-                                        span.price-now-label { // "Now"
-                                            font: 400 15px $primaryFont;
-                                            color: $primaryColor;
-                                        }
-
-                                        span.price--withoutTax {
-                                            font: 400 15px $primaryFont;
-                                            color: $primaryColor;
-                                        }
-
-
                                     }
                                 }
                             }
 
+                            .card-body {
 
-                        } // End card-body
-                    } // End card
+                                .card-title a {
+                                    font: 400 15px $primaryFont;
+                                    color: $primaryColor;
+                                }
 
-                } // End product
-            } // End productGrid
+                                .card-text {
 
-            .pagination {
-                .pagination-list {
+                                    svg {
 
-                    .pagination-item {
+                                    }
 
-                        .pagination-link {
-                            font: 400 15px $primaryFont;
-                            color: $primaryColor;
+                                    &[data-test-info-type="brandName"] {
+                                        font: 400 15px $primaryFont;
+                                        color: $primaryColor;
+                                    }
+
+                                    &[data-test-info-type="price"] {
+
+                                        .rrp-price--withoutTax { // "MSRP"
+                                            font: 400 15px $primaryFont;
+                                            color: $primaryColor;
+
+                                            span.price--rrp {
+                                                font: 400 15px $primaryFont;
+                                                color: $primaryColor;
+                                            }
+                                        }
+
+                                        .non-sale-price--withoutTax { // "Was"
+                                            font: 400 15px $primaryFont;
+                                            color: $primaryColor;
+
+                                            span.price--non-sale {
+                                                font: 400 15px $primaryFont;
+                                                color: $primaryColor;
+                                            }
+                                        }
+
+                                        .price-section--withoutTax {
+                                            span.price-now-label { // "Now"
+                                                font: 400 15px $primaryFont;
+                                                color: $primaryColor;
+                                            }
+
+                                            span.price--withoutTax {
+                                                font: 400 15px $primaryFont;
+                                                color: $primaryColor;
+                                            }
+
+
+                                        }
+                                    }
+                                }
+
+
+                            } // End card-body
+                        } // End card
+
+                    } // End product
+                } // End productGrid
+
+                .pagination {
+                    .pagination-list {
+
+                        .pagination-item {
+
+                            .pagination-link {
+                                font: 400 15px $primaryFont;
+                                color: $primaryColor;
+                            }
                         }
-                    }
 
-                    .pagination-item--current {
-
-                    }
-
-                    .pagination-item--previous, .pagination-item--next {
-                        .pagination-link {
-                            font: 400 15px $primaryFont;
-                            color: $primaryColor;
-                        }
-
-                        .icon svg {
+                        .pagination-item--current {
 
                         }
+
+                        .pagination-item--previous, .pagination-item--next {
+                            .pagination-link {
+                                font: 400 15px $primaryFont;
+                                color: $primaryColor;
+                            }
+
+                            .icon svg {
+
+                            }
+                        }
+
+
+
                     }
-
-
 
                 }
 
-            }
+            } // End page-content
 
-        } // End page-content
+        }
+
 
 
     }
